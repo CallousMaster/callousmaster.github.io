@@ -118,13 +118,13 @@
   </script>
 
 
-  <meta name="description" content="在 CentOS 7 系统上安装 SQLServer 2017 数据库">
+  <meta name="description" content="在CentoOS上安装sqlserver，需要先下载微软官方提供的在线yum源，再安装mssql-server软件包，再根据需要安装sqlserver的命令行工具或远程客户端进行连接">
 <meta name="keywords" content="SQLServer,CentOS7">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CentOS7安装SQLServer2017">
 <meta property="og:url" content="https://callousmaster.github.io/LinuxService/CentOS7安装SQLServer2017/index.html">
 <meta property="og:site_name" content="Jerry&#39;s blog">
-<meta property="og:description" content="在 CentOS 7 系统上安装 SQLServer 2017 数据库">
+<meta property="og:description" content="在CentoOS上安装sqlserver，需要先下载微软官方提供的在线yum源，再安装mssql-server软件包，再根据需要安装sqlserver的命令行工具或远程客户端进行连接">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https://callousmaster.github.io/images/mssql/0.png">
 <meta property="og:image" content="https://callousmaster.github.io/images/mssql/1.png">
@@ -136,10 +136,10 @@
 <meta property="og:image" content="https://callousmaster.github.io/images/mssql/01.png">
 <meta property="og:image" content="https://callousmaster.github.io/images/mssql/02.png">
 <meta property="og:image" content="https://callousmaster.github.io/images/mssql/end.png">
-<meta property="og:updated_time" content="2019-08-15T09:09:47.595Z">
+<meta property="og:updated_time" content="2019-08-15T09:42:17.911Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CentOS7安装SQLServer2017">
-<meta name="twitter:description" content="在 CentOS 7 系统上安装 SQLServer 2017 数据库">
+<meta name="twitter:description" content="在CentoOS上安装sqlserver，需要先下载微软官方提供的在线yum源，再安装mssql-server软件包，再根据需要安装sqlserver的命令行工具或远程客户端进行连接">
 <meta name="twitter:image" content="https://callousmaster.github.io/images/mssql/0.png">
 
 
@@ -403,7 +403,7 @@
                 
               
 
-              <time title="创建时间：2019-08-15 16:23:46 / 修改时间：17:09:47" itemprop="dateCreated datePublished" datetime="2019-08-15T16:23:46+08:00">2019-08-15</time>
+              <time title="创建时间：2019-08-15 16:23:46 / 修改时间：17:42:17" itemprop="dateCreated datePublished" datetime="2019-08-15T16:23:46+08:00">2019-08-15</time>
             
 
             
@@ -474,7 +474,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">2.2k</span>
+                <span title="本文字数">2.4k</span>
               
 
               
@@ -508,11 +508,16 @@
       
 
       
-        <blockquote class="blockquote-center"><p>在 CentOS 7 系统上安装 SQLServer 2017 数据库</p>
+        <blockquote class="blockquote-center"><p>在CentoOS上安装sqlserver，需要先下载微软官方提供的在线yum源，再安装mssql-server软件包，再根据需要安装sqlserver的命令行工具或远程客户端进行连接</p>
 </blockquote>
 <a id="more"></a>
-<h2 id="CentOS7安装SQLServer2017"><a href="#CentOS7安装SQLServer2017" class="headerlink" title="CentOS7安装SQLServer2017"></a>CentOS7安装SQLServer2017</h2><p>官方文档：<a href="https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-red-hat" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-red-hat</a> </p>
+<h2 id="CentOS7安装SQLServer2017"><a href="#CentOS7安装SQLServer2017" class="headerlink" title="CentOS7安装SQLServer2017"></a>CentOS7安装SQLServer2017</h2><blockquote>
+<p>在CentoOS上安装sqlserver，需要先下载微软官方提供的在线yum源，再安装mssql-server软件包，再根据需要安装sqlserver的命令行工具或远程客户端进行连接</p>
+</blockquote>
+<p>官方文档：<a href="https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-red-hat" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-red-hat</a> </p>
+<blockquote>
 <p>OS必须条件<br>Memory：3.25 GB<br>File System：XFS or EXT4 (other file systems, such as BTRFS, are unsupported)<br>Disk space ：6 GB<br>Processor speed：2 GHz<br>Processor cores：2 cores<br>Processor type：x64-compatible only</p>
+</blockquote>
 <h3 id="安装mssql-server"><a href="#安装mssql-server" class="headerlink" title="安装mssql-server"></a>安装mssql-server</h3><p>下载阿里云在线yum源到本地</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo</span><br></pre></td></tr></table></figure>
 <p>下载微软官方的sqlserver源到本地</p>
@@ -531,7 +536,9 @@
 <p><img src="/images/mssql/3.png" alt></p>
 <p>要允许远程连接，允许firewalld防火墙上的SQLServer端口。 默认的 SQL Server 端口为 TCP 1433。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo firewall-cmd --zone=public --add-port=1433/tcp --permanent</span><br><span class="line">sudo firewall-cmd --reload</span><br></pre></td></tr></table></figure>
-<h3 id="安装sqlserver命令行工具"><a href="#安装sqlserver命令行工具" class="headerlink" title="安装sqlserver命令行工具"></a>安装sqlserver命令行工具</h3><p>这时候安装已经完成，但是若要创建数据库或者本地连接数据库，则需要使用一个能够在SQLServer上运行Transact-SQL语句的工具进行连接。 以下步骤安装 SQL Server 命令行工具：sqlcmd和bcp。 </p>
+<h3 id="安装sqlserver命令行工具"><a href="#安装sqlserver命令行工具" class="headerlink" title="安装sqlserver命令行工具"></a>安装sqlserver命令行工具</h3><blockquote>
+<p>这时候安装已经完成，但是若要创建数据库或者本地连接数据库，则需要使用一个能够在SQLServer上运行Transact-SQL语句的工具进行连接。 以下步骤安装 SQL Server 命令行工具：sqlcmd和bcp。 </p>
+</blockquote>
 <p>下载微软官方的软件包yum源</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O  /etc/yum.repos.d/msprod.repo https://packages.microsoft.com/config/rhel/7/prod.repo</span><br></pre></td></tr></table></figure>
 <p>如果以前装过mssql，则需要删除较旧的UnixODBC软件包</p>
@@ -561,7 +568,10 @@
 </ul>
 <h3 id="检查安装的SQL-Server版本"><a href="#检查安装的SQL-Server版本" class="headerlink" title="检查安装的SQL Server版本"></a>检查安装的SQL Server版本</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlcmd -S localhost -U SA -Q <span class="string">'select @@VERSION'</span></span><br></pre></td></tr></table></figure>
 <p><img src="/images/mssql/end.png" alt></p>
-<h3 id="卸载-SQL-Server"><a href="#卸载-SQL-Server" class="headerlink" title="卸载 SQL Server"></a>卸载 SQL Server</h3><p>如果安装了错误的版本或者需要卸载</p>
+<h3 id="卸载-SQL-Server"><a href="#卸载-SQL-Server" class="headerlink" title="卸载 SQL Server"></a>卸载 SQL Server</h3><blockquote>
+<p>如果安装了错误的版本或者需要卸载</p>
+</blockquote>
+<p>只移除软件包本身</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum remove mssql-server</span><br></pre></td></tr></table></figure>
 <p>移除包并不会删除生成的数据库文件。 需要手动删除</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -rf /var/opt/mssql/</span><br></pre></td></tr></table></figure>
