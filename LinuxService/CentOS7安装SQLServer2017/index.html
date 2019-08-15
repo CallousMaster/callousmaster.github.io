@@ -136,7 +136,7 @@
 <meta property="og:image" content="https://callousmaster.github.io/images/mssql/01.png">
 <meta property="og:image" content="https://callousmaster.github.io/images/mssql/02.png">
 <meta property="og:image" content="https://callousmaster.github.io/images/mssql/end.png">
-<meta property="og:updated_time" content="2019-08-15T08:52:50.529Z">
+<meta property="og:updated_time" content="2019-08-15T09:09:47.595Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CentOS7安装SQLServer2017">
 <meta name="twitter:description" content="在 CentOS 7 系统上安装 SQLServer 2017 数据库">
@@ -403,7 +403,7 @@
                 
               
 
-              <time title="创建时间：2019-08-15 16:23:46 / 修改时间：16:52:50" itemprop="dateCreated datePublished" datetime="2019-08-15T16:23:46+08:00">2019-08-15</time>
+              <time title="创建时间：2019-08-15 16:23:46 / 修改时间：17:09:47" itemprop="dateCreated datePublished" datetime="2019-08-15T16:23:46+08:00">2019-08-15</time>
             
 
             
@@ -510,7 +510,6 @@
       
         <blockquote class="blockquote-center"><p>在 CentOS 7 系统上安装 SQLServer 2017 数据库</p>
 </blockquote>
-<p><img src alt style="width:100%"></p>
 <a id="more"></a>
 <h2 id="CentOS7安装SQLServer2017"><a href="#CentOS7安装SQLServer2017" class="headerlink" title="CentOS7安装SQLServer2017"></a>CentOS7安装SQLServer2017</h2><p>官方文档：<a href="https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-red-hat" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-red-hat</a> </p>
 <p>OS必须条件<br>Memory：3.25 GB<br>File System：XFS or EXT4 (other file systems, such as BTRFS, are unsupported)<br>Disk space ：6 GB<br>Processor speed：2 GHz<br>Processor cores：2 cores<br>Processor type：x64-compatible only</p>
@@ -544,9 +543,9 @@
 <p>使用sqlcmd命令连接本地的sqlserver，输入之前设置的SA密码</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlcmd -S localhost -U SA -p</span><br></pre></td></tr></table></figure>
 <p>如果出现以下报错</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Sqlcmd: Error: Microsoft ODBC Driver 17 <span class="keyword">for</span> SQL<span class="built_in"> Server </span>: Login timeout expired.</span><br><span class="line">Sqlcmd: Error: Microsoft ODBC Driver 17 <span class="keyword">for</span> SQL<span class="built_in"> Server </span>: TCP Provider: Timeout <span class="builtin-name">error</span> [258]. .</span><br><span class="line">Sqlcmd: Error: Microsoft ODBC Driver 17 <span class="keyword">for</span> SQL<span class="built_in"> Server </span>: Unable <span class="keyword">to</span> complete login process due <span class="keyword">to</span> delay <span class="keyword">in</span> prelogin response.</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Sqlcmd: Error: Microsoft ODBC Driver 17 <span class="keyword">for</span> SQL Server : Login timeout expired.</span><br><span class="line">Sqlcmd: Error: Microsoft ODBC Driver 17 <span class="keyword">for</span> SQL Server : TCP Provider: Timeout error [258]. .</span><br><span class="line">Sqlcmd: Error: Microsoft ODBC Driver 17 <span class="keyword">for</span> SQL Server : Unable to complete login process due to delay <span class="keyword">in</span> prelogin response.</span><br></pre></td></tr></table></figure>
 <p>将localhost换成127.0.0.1，再次连接</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">sqlcmd</span> <span class="selector-tag">-S</span> 127<span class="selector-class">.0</span><span class="selector-class">.0</span><span class="selector-class">.1</span> <span class="selector-tag">-U</span> <span class="selector-tag">SA</span> <span class="selector-tag">-p</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlcmd -S 127.0.0.1 -U SA -p</span><br></pre></td></tr></table></figure>
 <p><img src="/images/mssql/4.png" alt></p>
 <p>在本地创建新的数据库并查看</p>
 <p><img src="/images/mssql/5.png" alt></p>
@@ -554,7 +553,7 @@
 <p><img src="/images/mssql/00.png" alt></p>
 <p><img src="/images/mssql/01.png" alt></p>
 <p><img src="/images/mssql/02.png" alt></p>
-<h6 id="其他客户端连接工具："><a href="#其他客户端连接工具：" class="headerlink" title="其他客户端连接工具："></a>其他客户端连接工具：</h6><p>除了 sqlcmd, bcp, SSMS (on Windows)，还可以使用以下工具：</p>
+<p>除了 sqlcmd, bcp, SSMS (on Windows)，还可以使用以下工具：</p>
 <ul>
 <li>SQL Operations Studio</li>
 <li>mssql-cli</li>
@@ -563,9 +562,9 @@
 <h3 id="检查安装的SQL-Server版本"><a href="#检查安装的SQL-Server版本" class="headerlink" title="检查安装的SQL Server版本"></a>检查安装的SQL Server版本</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlcmd -S localhost -U SA -Q <span class="string">'select @@VERSION'</span></span><br></pre></td></tr></table></figure>
 <p><img src="/images/mssql/end.png" alt></p>
 <h3 id="卸载-SQL-Server"><a href="#卸载-SQL-Server" class="headerlink" title="卸载 SQL Server"></a>卸载 SQL Server</h3><p>如果安装了错误的版本或者需要卸载</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum <span class="builtin-name">remove</span> mssql-server</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum remove mssql-server</span><br></pre></td></tr></table></figure>
 <p>移除包并不会删除生成的数据库文件。 需要手动删除</p>
-<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -rf <span class="regexp">/var/</span>opt<span class="regexp">/mssql/</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -rf /var/opt/mssql/</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -900,7 +899,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#CentOS7安装SQLServer2017"><span class="nav-number">1.</span> <span class="nav-text">CentOS7安装SQLServer2017</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装mssql-server"><span class="nav-number">1.1.</span> <span class="nav-text">安装mssql-server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装sqlserver命令行工具"><span class="nav-number">1.2.</span> <span class="nav-text">安装sqlserver命令行工具</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#其他客户端连接工具："><span class="nav-number">1.2.0.0.1.</span> <span class="nav-text">其他客户端连接工具：</span></a></li></ol></li></ol></li></ol><li class="nav-item nav-level-3"><a class="nav-link" href="#检查安装的SQL-Server版本"><span class="nav-number">1.3.</span> <span class="nav-text">检查安装的SQL Server版本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#卸载-SQL-Server"><span class="nav-number">1.4.</span> <span class="nav-text">卸载 SQL Server</span></a></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#CentOS7安装SQLServer2017"><span class="nav-number">1.</span> <span class="nav-text">CentOS7安装SQLServer2017</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装mssql-server"><span class="nav-number">1.1.</span> <span class="nav-text">安装mssql-server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装sqlserver命令行工具"><span class="nav-number">1.2.</span> <span class="nav-text">安装sqlserver命令行工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#检查安装的SQL-Server版本"><span class="nav-number">1.3.</span> <span class="nav-text">检查安装的SQL Server版本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#卸载-SQL-Server"><span class="nav-number">1.4.</span> <span class="nav-text">卸载 SQL Server</span></a></li></ol></li></ol></div>
             
 
           </div>
