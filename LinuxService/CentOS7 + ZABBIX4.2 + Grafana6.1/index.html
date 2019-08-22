@@ -118,29 +118,38 @@
   </script>
 
 
-  <meta name="description" content="在CentoOS上安装sqlserver，需要先下载微软官方提供的在线yum源，再安装mssql-server软件包，再根据需要安装sqlserver的命令行工具或远程客户端进行连接">
-<meta name="keywords" content="SQLServer,CentOS7">
+  <meta name="description" content="ZABBIX4.2+Grafana6.1的部署。Grafana是一个开源的度量分析与可视化套件，界面炫酷，数据体现较为直观。">
+<meta name="keywords" content="zabbix4.2,Centos7">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CentOS7安装SQLServer2017">
-<meta property="og:url" content="https://callousmaster.github.io/LinuxService/CentOS7安装SQLServer2017/index.html">
+<meta property="og:title" content="CentOS7 + ZABBIX4.2 + Grafana6.1">
+<meta property="og:url" content="https://callousmaster.github.io/LinuxService/CentOS7 + ZABBIX4.2 + Grafana6.1/index.html">
 <meta property="og:site_name" content="Jerry&#39;s blog">
-<meta property="og:description" content="在CentoOS上安装sqlserver，需要先下载微软官方提供的在线yum源，再安装mssql-server软件包，再根据需要安装sqlserver的命令行工具或远程客户端进行连接">
+<meta property="og:description" content="ZABBIX4.2+Grafana6.1的部署。Grafana是一个开源的度量分析与可视化套件，界面炫酷，数据体现较为直观。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://callousmaster.github.io/images/mssql/0.png">
-<meta property="og:image" content="https://callousmaster.github.io/images/mssql/1.png">
-<meta property="og:image" content="https://callousmaster.github.io/images/mssql/2.png">
-<meta property="og:image" content="https://callousmaster.github.io/images/mssql/3.png">
-<meta property="og:image" content="https://callousmaster.github.io/images/mssql/4.png">
-<meta property="og:image" content="https://callousmaster.github.io/images/mssql/5.png">
-<meta property="og:image" content="https://callousmaster.github.io/images/mssql/00.png">
-<meta property="og:image" content="https://callousmaster.github.io/images/mssql/01.png">
-<meta property="og:image" content="https://callousmaster.github.io/images/mssql/02.png">
-<meta property="og:image" content="https://callousmaster.github.io/images/mssql/end.png">
-<meta property="og:updated_time" content="2019-08-15T09:42:17.911Z">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/title.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/1.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/2.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/3.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/4.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/5.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/6.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/7.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/8.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/9.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/10.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/11.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/12.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/13.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/14.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/15.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/16.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/17.png">
+<meta property="og:image" content="https://callousmaster.github.io/images/zabbix/18.png">
+<meta property="og:updated_time" content="2019-08-22T02:00:27.689Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CentOS7安装SQLServer2017">
-<meta name="twitter:description" content="在CentoOS上安装sqlserver，需要先下载微软官方提供的在线yum源，再安装mssql-server软件包，再根据需要安装sqlserver的命令行工具或远程客户端进行连接">
-<meta name="twitter:image" content="https://callousmaster.github.io/images/mssql/0.png">
+<meta name="twitter:title" content="CentOS7 + ZABBIX4.2 + Grafana6.1">
+<meta name="twitter:description" content="ZABBIX4.2+Grafana6.1的部署。Grafana是一个开源的度量分析与可视化套件，界面炫酷，数据体现较为直观。">
+<meta name="twitter:image" content="https://callousmaster.github.io/images/zabbix/title.png">
 
 
 
@@ -149,7 +158,7 @@
 
 
 
-  <link rel="canonical" href="https://callousmaster.github.io/LinuxService/CentOS7安装SQLServer2017/">
+  <link rel="canonical" href="https://callousmaster.github.io/LinuxService/CentOS7 + ZABBIX4.2 + Grafana6.1/">
 
 
 
@@ -159,7 +168,7 @@
   };
 </script>
 
-  <title>CentOS7安装SQLServer2017 | Jerry's blog</title>
+  <title>CentOS7 + ZABBIX4.2 + Grafana6.1 | Jerry's blog</title>
   
 
 
@@ -361,7 +370,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://callousmaster.github.io/LinuxService/CentOS7安装SQLServer2017/">
+    <link itemprop="mainEntityOfPage" href="https://callousmaster.github.io/LinuxService/CentOS7 + ZABBIX4.2 + Grafana6.1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Callousmaster">
@@ -378,7 +387,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">CentOS7安装SQLServer2017
+          <h1 class="post-title" itemprop="name headline">CentOS7 + ZABBIX4.2 + Grafana6.1
               
             
           </h1>
@@ -403,12 +412,24 @@
                 
               
 
-              <time title="创建时间：2019-08-15 16:23:46 / 修改时间：17:42:17" itemprop="dateCreated datePublished" datetime="2019-08-15T16:23:46+08:00">2019-08-15</time>
+              <time title="创建时间：2019-04-24 15:24:15" itemprop="dateCreated datePublished" datetime="2019-04-24T15:24:15+08:00">2019-04-24</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-08-22 10:00:27" itemprop="dateModified" datetime="2019-08-22T10:00:27+08:00">2019-08-22</time>
               
             
           </span>
@@ -440,8 +461,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/LinuxService/CentOS7安装SQLServer2017/#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/LinuxService/CentOS7安装SQLServer2017/" itemprop="commentCount"></span>
+                <a href="/LinuxService/CentOS7 + ZABBIX4.2 + Grafana6.1/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/LinuxService/CentOS7 + ZABBIX4.2 + Grafana6.1/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -449,7 +470,7 @@
 
           
           
-             <span id="/LinuxService/CentOS7安装SQLServer2017/" class="leancloud_visitors" data-flag-title="CentOS7安装SQLServer2017">
+             <span id="/LinuxService/CentOS7 + ZABBIX4.2 + Grafana6.1/" class="leancloud_visitors" data-flag-title="CentOS7 + ZABBIX4.2 + Grafana6.1">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -474,7 +495,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">2.4k</span>
+                <span title="本文字数">4.1k</span>
               
 
               
@@ -488,7 +509,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">2 分钟</span>
+                <span title="阅读时长">4 分钟</span>
               
             </div>
           
@@ -508,73 +529,119 @@
       
 
       
-        <blockquote class="blockquote-center"><p>在CentoOS上安装sqlserver，需要先下载微软官方提供的在线yum源，再安装mssql-server软件包，再根据需要安装sqlserver的命令行工具或远程客户端进行连接</p>
+        <blockquote class="blockquote-center"><p>ZABBIX4.2+Grafana6.1的部署。Grafana是一个开源的度量分析与可视化套件，界面炫酷，数据体现较为直观。</p>
 </blockquote>
+<p><img src="/images/zabbix/title.png" alt style="width:100%"></p>
 <a id="more"></a>
-<h2 id="CentOS7安装SQLServer2017"><a href="#CentOS7安装SQLServer2017" class="headerlink" title="CentOS7安装SQLServer2017"></a>CentOS7安装SQLServer2017</h2><blockquote>
-<p>在CentoOS上安装sqlserver，需要先下载微软官方提供的在线yum源，再安装mssql-server软件包，再根据需要安装sqlserver的命令行工具或远程客户端进行连接</p>
-</blockquote>
-<p>官方文档：<a href="https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-red-hat" target="_blank" rel="noopener">https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-red-hat</a> </p>
-<blockquote>
-<p>OS必须条件<br>Memory：3.25 GB<br>File System：XFS or EXT4 (other file systems, such as BTRFS, are unsupported)<br>Disk space ：6 GB<br>Processor speed：2 GHz<br>Processor cores：2 cores<br>Processor type：x64-compatible only</p>
-</blockquote>
-<h3 id="安装mssql-server"><a href="#安装mssql-server" class="headerlink" title="安装mssql-server"></a>安装mssql-server</h3><p>下载阿里云在线yum源到本地</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo</span><br></pre></td></tr></table></figure>
-<p>下载微软官方的sqlserver源到本地</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O /etc/yum.repos.d/mssql-server.repo https://packages.microsoft.com/config/rhel/7/mssql-server-2017.repo</span><br></pre></td></tr></table></figure>
-<p>最好查看一下内容是否正确</p>
-<p><img src="/images/mssql/0.png" alt></p>
-<p>安装mssql-server（SQL Server软件包）</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y mssql-server</span><br></pre></td></tr></table></figure>
-<p>运行mssql-conf配置文件，选择SQL版本并配置SA密码（密码必须符合策略要求 ）</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/opt/mssql/bin/mssql-conf setup</span><br></pre></td></tr></table></figure>
-<p>这里有个小问题，服务器内存小于2G是无法正常安装的，所以需要调整内存或者自行百度</p>
-<p><img src="/images/mssql/1.png" alt></p>
-<p><img src="/images/mssql/2.png" alt></p>
-<p>完成后，查看服务运行状态</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl status mssql-server</span><br></pre></td></tr></table></figure>
-<p><img src="/images/mssql/3.png" alt></p>
-<p>要允许远程连接，允许firewalld防火墙上的SQLServer端口。 默认的 SQL Server 端口为 TCP 1433。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo firewall-cmd --zone=public --add-port=1433/tcp --permanent</span><br><span class="line">sudo firewall-cmd --reload</span><br></pre></td></tr></table></figure>
-<h3 id="安装sqlserver命令行工具"><a href="#安装sqlserver命令行工具" class="headerlink" title="安装sqlserver命令行工具"></a>安装sqlserver命令行工具</h3><blockquote>
-<p>这时候安装已经完成，但是若要创建数据库或者本地连接数据库，则需要使用一个能够在SQLServer上运行Transact-SQL语句的工具进行连接。 以下步骤安装 SQL Server 命令行工具：sqlcmd和bcp。 </p>
-</blockquote>
-<p>下载微软官方的软件包yum源</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -O  /etc/yum.repos.d/msprod.repo https://packages.microsoft.com/config/rhel/7/prod.repo</span><br></pre></td></tr></table></figure>
-<p>如果以前装过mssql，则需要删除较旧的UnixODBC软件包</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum remove unixODBC-utf16 unixODBC-utf16-devel</span><br></pre></td></tr></table></figure>
-<p>安装mssql工具包和UnixODBC开发人员软件包</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install -y mssql-tools unixODBC-devel</span><br></pre></td></tr></table></figure>
-<p>为了方便使用工具包中的命令，添加PATH环境变量</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">"export PATH=<span class="variable">$PATH</span>:/opt/mssql-tools/bin"</span> &gt;&gt; /etc/profile</span><br><span class="line"><span class="built_in">source</span> /etc/profile</span><br></pre></td></tr></table></figure>
-<p>使用sqlcmd命令连接本地的sqlserver，输入之前设置的SA密码</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlcmd -S localhost -U SA -p</span><br></pre></td></tr></table></figure>
-<p>如果出现以下报错</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Sqlcmd: Error: Microsoft ODBC Driver 17 <span class="keyword">for</span> SQL Server : Login timeout expired.</span><br><span class="line">Sqlcmd: Error: Microsoft ODBC Driver 17 <span class="keyword">for</span> SQL Server : TCP Provider: Timeout error [258]. .</span><br><span class="line">Sqlcmd: Error: Microsoft ODBC Driver 17 <span class="keyword">for</span> SQL Server : Unable to complete login process due to delay <span class="keyword">in</span> prelogin response.</span><br></pre></td></tr></table></figure>
-<p>将localhost换成127.0.0.1，再次连接</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlcmd -S 127.0.0.1 -U SA -p</span><br></pre></td></tr></table></figure>
-<p><img src="/images/mssql/4.png" alt></p>
-<p>在本地创建新的数据库并查看</p>
-<p><img src="/images/mssql/5.png" alt></p>
-<p>使用Navicat客户端远程连接</p>
-<p><img src="/images/mssql/00.png" alt></p>
-<p><img src="/images/mssql/01.png" alt></p>
-<p><img src="/images/mssql/02.png" alt></p>
-<p>除了 sqlcmd, bcp, SSMS (on Windows)，还可以使用以下工具：</p>
-<ul>
-<li>SQL Operations Studio</li>
-<li>mssql-cli</li>
-<li>Visual Studio Code</li>
-</ul>
-<h3 id="检查安装的SQL-Server版本"><a href="#检查安装的SQL-Server版本" class="headerlink" title="检查安装的SQL Server版本"></a>检查安装的SQL Server版本</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sqlcmd -S localhost -U SA -Q <span class="string">'select @@VERSION'</span></span><br></pre></td></tr></table></figure>
-<p><img src="/images/mssql/end.png" alt></p>
-<h3 id="卸载-SQL-Server"><a href="#卸载-SQL-Server" class="headerlink" title="卸载 SQL Server"></a>卸载 SQL Server</h3><blockquote>
-<p>如果安装了错误的版本或者需要卸载</p>
-</blockquote>
-<p>只移除软件包本身</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum remove mssql-server</span><br></pre></td></tr></table></figure>
-<p>移除包并不会删除生成的数据库文件。 需要手动删除</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -rf /var/opt/mssql/</span><br></pre></td></tr></table></figure>
+<h2 id="ZABBIX-4-2-Grafana-6-1部署"><a href="#ZABBIX-4-2-Grafana-6-1部署" class="headerlink" title="ZABBIX 4.2 + Grafana 6.1部署"></a>ZABBIX 4.2 + Grafana 6.1部署</h2><h3 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h3><hr>
+<table>
+<thead>
+<tr>
+<th>SNAME</th>
+<th>OS</th>
+<th>IP</th>
+<th>ROLE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>zabbix_server</td>
+<td>CentOS7.5_1804_64bit</td>
+<td>192.168.31.194</td>
+<td>server</td>
+</tr>
+<tr>
+<td>zabbix_client</td>
+<td>CentOS7.5_1804_64bit</td>
+<td>192.168.31.214</td>
+<td>client</td>
+</tr>
+</tbody>
+</table>
+<h4 id="升级系统组件版本-可选"><a href="#升级系统组件版本-可选" class="headerlink" title="升级系统组件版本(可选)"></a>升级系统组件版本(可选)</h4><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">yum -y update</span></span><br></pre></td></tr></table></figure>
+<h4 id="SELinux配置"><a href="#SELinux配置" class="headerlink" title="SELinux配置"></a>SELinux配置</h4><p>启用Zabbix前端和服务器之间的通信：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">setsebool -P httpd_can_connect_zabbix on</span><br></pre></td></tr></table></figure>
+<p>如可以通过网络访问数据库，则还需要允许Zabbix前端连接到数据库：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">setsebool -P httpd_can_network_connect_db on</span><br></pre></td></tr></table></figure>
+<p>或直接关闭SELinux</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sed -i <span class="string">"s/SELINUX=enforcing/SELINUX=disabled/g"</span> /etc/selinux/config</span><br></pre></td></tr></table></figure>
+<h4 id="防火墙配置"><a href="#防火墙配置" class="headerlink" title="防火墙配置"></a>防火墙配置</h4><p>临时关闭firewall</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld.service</span><br></pre></td></tr></table></figure>
+<p> 禁止firewall开机启动</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="built_in">disable</span> firewalld.service</span><br></pre></td></tr></table></figure>
+<h3 id="安装Zabbix-server"><a href="#安装Zabbix-server" class="headerlink" title="安装Zabbix-server"></a>安装Zabbix-server</h3><hr>
+<h4 id="添加Zabbix存储库"><a href="#添加Zabbix存储库" class="headerlink" title="添加Zabbix存储库"></a>添加Zabbix存储库</h4><p>安装存储库配置包。该软件包包含yum（软件包管理器）的配置文件。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -ivh https://repo.zabbix.com/zabbix/4.2/rhel/7/x86_64/zabbix-release-4.2-1.el7.noarch.rpm</span><br></pre></td></tr></table></figure>
+<h4 id="前端安装先决条件"><a href="#前端安装先决条件" class="headerlink" title="前端安装先决条件"></a>前端安装先决条件</h4><p>Zabbix前端需要额外的基本安装包。您需要在将运行Zabbix前端的系统中启用可选rpms的存储库：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum-config-manager --<span class="built_in">enable</span> rhel-7-server-optional-rpms</span><br></pre></td></tr></table></figure>
+<p>（如果提示没有<code>yum-config-manager</code>命令则使用<code>yum -y install yum-utils</code>后再次尝试）</p>
+<h4 id="服务器-代理-前端安装"><a href="#服务器-代理-前端安装" class="headerlink" title="服务器/代理/前端安装"></a>服务器/代理/前端安装</h4><p>要在 MySQL支持下安装Zabbix服务器：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install zabbix-server-mysql</span><br></pre></td></tr></table></figure>
+<p>要使用MySQL支持安装Zabbix-proxy：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install zabbix-proxy-mysql</span><br></pre></td></tr></table></figure>
+<p>要在 MySQL支持下安装Zabbix前端：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install zabbix-web-mysql</span><br></pre></td></tr></table></figure>
+<h4 id="MySQL安装"><a href="#MySQL安装" class="headerlink" title="MySQL安装"></a>MySQL安装</h4><p>CentOS自带的YUM仓库是不会自动更新每个软件的最新版本，所以无法通过YUM方式安装MySQL的高级版本。<br>安装mysql5的解锁姿势是要先安装带有可用的mysql5系列社区版资源的rpm包</p>
+<h5 id="下载RPM包"><a href="#下载RPM包" class="headerlink" title="下载RPM包"></a>下载RPM包</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install mysql-community-release-el7-5.noarch.rpm</span><br></pre></td></tr></table></figure>
+<h5 id="使用YUM的方式安装MySQL"><a href="#使用YUM的方式安装MySQL" class="headerlink" title="使用YUM的方式安装MySQL"></a>使用YUM的方式安装MySQL</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install mysql-community-server</span><br></pre></td></tr></table></figure>
+<h5 id="启动MySQL并设置开机启动"><a href="#启动MySQL并设置开机启动" class="headerlink" title="启动MySQL并设置开机启动"></a>启动MySQL并设置开机启动</h5><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="built_in">enable</span> mysqld</span><br><span class="line">systemctl start mysqld</span><br></pre></td></tr></table></figure>
+<h4 id="创建数据库"><a href="#创建数据库" class="headerlink" title="创建数据库"></a>创建数据库</h4><p>对于Zabbix_server和Zabbix_proxy守护程序，需要一个数据库。运行Zabbix_agent不需要它。</p>
+<font color="red">Zabbix_server和Zabbix_proxy需要单独的数据库; 他们不能使用相同的数据库。因此，如果它们安装在同一主上,则必须使用不同的名称创建其数据库！</font>
+
+<h5 id="创建数据库-1"><a href="#创建数据库-1" class="headerlink" title="创建数据库"></a>创建数据库</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root</span><br><span class="line">mysql&gt; create database zabbix character set utf8 collate utf8_bin;</span><br><span class="line">mysql&gt; grant all privileges on zabbix.* to zabbix@localhost identified by &quot;Zabbix@123&quot;;</span><br></pre></td></tr></table></figure>
+<h5 id="导入数据"><a href="#导入数据" class="headerlink" title="导入数据"></a>导入数据</h5><p>现在使用MySQL 导入服务器的初始模式和数据：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">zcat /usr/share/doc/zabbix-server-mysql*/create.sql.gz | mysql -uzabbix -p zabbix</span><br></pre></td></tr></table></figure>
+<p>系统将提示您输入新创建的数据库密码,当前环境的密码是上面设置的’Zabbix@123‘。</p>
+<p>如果使用proxy，则使用这条命令导入数据库：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">zcat /usr/share/doc/zabbix-proxy-mysql*/schema.sql.gz | mysql -uzabbix -p zabbix_proxy</span><br></pre></td></tr></table></figure>
+<h4 id="为Zabbix服务器-代理配置数据库"><a href="#为Zabbix服务器-代理配置数据库" class="headerlink" title="为Zabbix服务器/代理配置数据库"></a>为Zabbix服务器/代理配置数据库</h4><p>编辑zabbix_server.conf（和zabbix_proxy.conf）以使用其各自的数据库。例如：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#vi /etc/zabbix/zabbix_server.conf </span></span><br><span class="line">DBHost = localhost </span><br><span class="line">DBName = zabbix</span><br><span class="line">zabbix DBUser = zabbix</span><br><span class="line">zabbix DBPassword = Zabbix@123</span><br><span class="line">在DBPassword中使用Zabbix数据库密码进行MySQL;</span><br></pre></td></tr></table></figure>
+<h4 id="启动Zabbix服务器进程"><a href="#启动Zabbix服务器进程" class="headerlink" title="启动Zabbix服务器进程"></a>启动Zabbix服务器进程</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start zabbix-server httpd</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="built_in">enable</span> zabbix-server httpd</span><br></pre></td></tr></table></figure>
+<h4 id="Zabbix前端配置"><a href="#Zabbix前端配置" class="headerlink" title="Zabbix前端配置"></a>Zabbix前端配置</h4><p>对于RHEL 7及更高版本，Zabbix前端的Apache配置文件位于/etc/httpd/conf.d/zabbix.conf中。<br>某些PHP设置已经配置。但是有必要取消注释“date.timezone”设置并为您设置正确的时区。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">php_value max_execution_time 300</span><br><span class="line">php_value memory_limit 128M</span><br><span class="line">php_value post_max_size 16M</span><br><span class="line">php_value upload_max_filesize 2M</span><br><span class="line">php_value max_input_time 300</span><br><span class="line">php_value max_input_vars 10000</span><br><span class="line">php_value always_populate_raw_post_data -1</span><br><span class="line"><span class="comment">#php_value date.timezone Asia/Shanghai</span></span><br></pre></td></tr></table></figure>
+<h4 id="Web端访问进行配置"><a href="#Web端访问进行配置" class="headerlink" title="Web端访问进行配置"></a>Web端访问进行配置</h4><p><a href="http://192.168.31.194/zabbix/" target="_blank" rel="noopener">http://192.168.31.194/zabbix/</a></p>
+<p><img src="/images/zabbix/1.png" alt="1"></p>
+<p><img src="/images/zabbix/2.png" alt="2"></p>
+<p><img src="/images/zabbix/3.png" alt="3"></p>
+<p><img src="/images/zabbix/4.png" alt="4"></p>
+<p><img src="/images/zabbix/5.png" alt="5"></p>
+<p><img src="/images/zabbix/6.png" alt="6"></p>
+<p><img src="/images/zabbix/7.png" alt="7"></p>
+<p><img src="/images/zabbix/8.png" alt="8"></p>
+<p><img src="/images/zabbix/9.png" alt="9"></p>
+<h4 id="解决中文显示乱码的问题"><a href="#解决中文显示乱码的问题" class="headerlink" title="解决中文显示乱码的问题"></a>解决中文显示乱码的问题</h4><p><img src="/images/zabbix/10.png" alt="10"></p>
+<p>将Win10操作系统C:\Windows\Fonts目录下的任意字体，拷贝到/usr/share/zabbix/fonts目录下，更改后缀为’’.ttf’</p>
+<p><img src="/images/zabbix/11.png" alt="11"></p>
+<p><img src="/images/zabbix/12.png" alt="12"></p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">vim /usr/share/zabbix/<span class="keyword">include</span>/defines.inc.php </span><br><span class="line"><span class="number">69</span> define(<span class="string">'ZBX_GRAPH_FONT_NAME'</span>,           <span class="string">'msyh'</span>); <span class="comment">// font file name</span></span><br><span class="line"><span class="number">114</span> define(<span class="string">'ZBX_FONT_NAME'</span>, <span class="string">'msyh'</span>);</span><br></pre></td></tr></table></figure>
+<p><img src="/images/zabbix/13.png" alt="13"></p>
+<h3 id="安装Zabbix-agent"><a href="#安装Zabbix-agent" class="headerlink" title="安装Zabbix-agent"></a>安装Zabbix-agent</h3><hr>
+<p>被监控端需安装Zabbix-agent</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -ivh https://repo.zabbix.com/zabbix/4.2/rhel/7/x86_64/zabbix-release-4.2-1.el7.noarch.rpm</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum-config-manager --<span class="built_in">enable</span> rhel-7-server-optional-rpms</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install zabbix-agent</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/zabbix/zabbix_agentd.conf</span><br><span class="line">Server=192.168.31.194</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start zabbix-agent</span><br></pre></td></tr></table></figure>
+<h3 id="Grafana-6-1部署"><a href="#Grafana-6-1部署" class="headerlink" title="Grafana 6.1部署"></a>Grafana 6.1部署</h3><hr>
+<p>一款高颜值监控绘图工具Grafana，在使用Zabbix监控环境中，通常我们会结合Grafana进行图形展示。Grafana默认没有zabbix作为数据源，需要手动给zabbix安装一个插件，然后再添加进Grafana即可，非常简单。下面就介绍下Grafana的使用：</p>
+<p>Grafana的官网：<a href="http://docs.grafana.org/installation/rpm/" target="_blank" rel="noopener">http://docs.grafana.org/installation/rpm/</a></p>
+<h4 id="安装RPM包"><a href="#安装RPM包" class="headerlink" title="安装RPM包"></a>安装RPM包</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://dl.grafana.com/oss/release/grafana-6.1.4-1.x86_64.rpm</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install fontconfig freetype* urw-fonts</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y localinstall grafana-6.1.4-1.x86_64.rpm</span><br></pre></td></tr></table></figure>
+<h4 id="启动Grafana并设置开机自启"><a href="#启动Grafana并设置开机自启" class="headerlink" title="启动Grafana并设置开机自启"></a>启动Grafana并设置开机自启</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="built_in">enable</span> grafana-server</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start grafana-server</span><br></pre></td></tr></table></figure>
+<h4 id="安装grafana-zabbix插件"><a href="#安装grafana-zabbix插件" class="headerlink" title="安装grafana-zabbix插件"></a>安装grafana-zabbix插件</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">grafana-cli plugins install alexanderzobnin-zabbix-app</span><br></pre></td></tr></table></figure>
+<h4 id="然后重启Grafana服务"><a href="#然后重启Grafana服务" class="headerlink" title="然后重启Grafana服务"></a>然后重启Grafana服务</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart grafana-server</span><br></pre></td></tr></table></figure>
+<h4 id="Web端访问3000端口"><a href="#Web端访问3000端口" class="headerlink" title="Web端访问3000端口"></a>Web端访问3000端口</h4><p><a href="http://192.168.31.194:3000" target="_blank" rel="noopener">http://192.168.31.194:3000</a></p>
+<p>Grafana默认用户名：admin，密码：admin。需重置</p>
+<p><img src="/images/zabbix/14.png" alt="14"></p>
+<p><img src="/images/zabbix/15.png" alt="15"></p>
+<p>Zabbix的API地址为 <a href="http://192.168.31.194/zabbix/api_jsonrpc.php" target="_blank" rel="noopener">http://192.168.31.194/zabbix/api_jsonrpc.php</a> </p>
+<p><img src="/images/zabbix/16.png" alt="16"></p>
+<p><img src="/images/zabbix/17.png" alt="17"></p>
+<p><img src="/images/zabbix/18.png" alt="18"></p>
 
       
     </div>
@@ -595,7 +662,7 @@
     <strong>本文作者： </strong>Callousmaster</li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://callousmaster.github.io/LinuxService/CentOS7安装SQLServer2017/" title="CentOS7安装SQLServer2017">https://callousmaster.github.io/LinuxService/CentOS7安装SQLServer2017/</a>
+    <a href="https://callousmaster.github.io/LinuxService/CentOS7 + ZABBIX4.2 + Grafana6.1/" title="CentOS7 + ZABBIX4.2 + Grafana6.1">https://callousmaster.github.io/LinuxService/CentOS7 + ZABBIX4.2 + Grafana6.1/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</li>
@@ -608,9 +675,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/SQLServer/" <i class="fa fa-tag"> SQLServer</a>
+            <a href="/tags/zabbix4-2/" <i class="fa fa-tag"> zabbix4.2</a>
           
-            <a href="/tags/CentOS7/" <i class="fa fa-tag"> CentOS7</a>
+            <a href="/tags/Centos7/" <i class="fa fa-tag"> Centos7</a>
           
         </div>
       
@@ -636,8 +703,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/LinuxService/CentOS6部署Zabbix4-2监控/" rel="prev" title="CentOS6部署Zabbix4.2监控">
-                <i class="fa fa-chevron-left"></i> CentOS6部署Zabbix4.2监控
+              <a href="/LinuxService/CentOS7安装SQLServer2017/" rel="prev" title="CentOS7安装SQLServer2017">
+                <i class="fa fa-chevron-left"></i> CentOS7安装SQLServer2017
               </a>
             
           </div>
@@ -646,8 +713,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/LinuxService/CentOS7 + ZABBIX4.2 + Grafana6.1/" rel="next" title="CentOS7 + ZABBIX4.2 + Grafana6.1">
-                CentOS7 + ZABBIX4.2 + Grafana6.1 <i class="fa fa-chevron-right"></i>
+              <a href="/LinuxService/LAMP平台部署及应用/" rel="next" title="LAMP平台部署及应用（CentOS_7）">
+                LAMP平台部署及应用（CentOS_7） <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -917,7 +984,7 @@ show_date_time();
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#CentOS7安装SQLServer2017"><span class="nav-number">1.</span> <span class="nav-text">CentOS7安装SQLServer2017</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装mssql-server"><span class="nav-number">1.1.</span> <span class="nav-text">安装mssql-server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装sqlserver命令行工具"><span class="nav-number">1.2.</span> <span class="nav-text">安装sqlserver命令行工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#检查安装的SQL-Server版本"><span class="nav-number">1.3.</span> <span class="nav-text">检查安装的SQL Server版本</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#卸载-SQL-Server"><span class="nav-number">1.4.</span> <span class="nav-text">卸载 SQL Server</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#ZABBIX-4-2-Grafana-6-1部署"><span class="nav-number">1.</span> <span class="nav-text">ZABBIX 4.2 + Grafana 6.1部署</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#环境准备"><span class="nav-number">1.1.</span> <span class="nav-text">环境准备</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#升级系统组件版本-可选"><span class="nav-number">1.1.1.</span> <span class="nav-text">升级系统组件版本(可选)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#SELinux配置"><span class="nav-number">1.1.2.</span> <span class="nav-text">SELinux配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#防火墙配置"><span class="nav-number">1.1.3.</span> <span class="nav-text">防火墙配置</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装Zabbix-server"><span class="nav-number">1.2.</span> <span class="nav-text">安装Zabbix-server</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#添加Zabbix存储库"><span class="nav-number">1.2.1.</span> <span class="nav-text">添加Zabbix存储库</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#前端安装先决条件"><span class="nav-number">1.2.2.</span> <span class="nav-text">前端安装先决条件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#服务器-代理-前端安装"><span class="nav-number">1.2.3.</span> <span class="nav-text">服务器/代理/前端安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#MySQL安装"><span class="nav-number">1.2.4.</span> <span class="nav-text">MySQL安装</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#下载RPM包"><span class="nav-number">1.2.4.1.</span> <span class="nav-text">下载RPM包</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#使用YUM的方式安装MySQL"><span class="nav-number">1.2.4.2.</span> <span class="nav-text">使用YUM的方式安装MySQL</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#启动MySQL并设置开机启动"><span class="nav-number">1.2.4.3.</span> <span class="nav-text">启动MySQL并设置开机启动</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#创建数据库"><span class="nav-number">1.2.5.</span> <span class="nav-text">创建数据库</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#创建数据库-1"><span class="nav-number">1.2.5.1.</span> <span class="nav-text">创建数据库</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#导入数据"><span class="nav-number">1.2.5.2.</span> <span class="nav-text">导入数据</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#为Zabbix服务器-代理配置数据库"><span class="nav-number">1.2.6.</span> <span class="nav-text">为Zabbix服务器/代理配置数据库</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#启动Zabbix服务器进程"><span class="nav-number">1.2.7.</span> <span class="nav-text">启动Zabbix服务器进程</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Zabbix前端配置"><span class="nav-number">1.2.8.</span> <span class="nav-text">Zabbix前端配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Web端访问进行配置"><span class="nav-number">1.2.9.</span> <span class="nav-text">Web端访问进行配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#解决中文显示乱码的问题"><span class="nav-number">1.2.10.</span> <span class="nav-text">解决中文显示乱码的问题</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装Zabbix-agent"><span class="nav-number">1.3.</span> <span class="nav-text">安装Zabbix-agent</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Grafana-6-1部署"><span class="nav-number">1.4.</span> <span class="nav-text">Grafana 6.1部署</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#安装RPM包"><span class="nav-number">1.4.1.</span> <span class="nav-text">安装RPM包</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#启动Grafana并设置开机自启"><span class="nav-number">1.4.2.</span> <span class="nav-text">启动Grafana并设置开机自启</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装grafana-zabbix插件"><span class="nav-number">1.4.3.</span> <span class="nav-text">安装grafana-zabbix插件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#然后重启Grafana服务"><span class="nav-number">1.4.4.</span> <span class="nav-text">然后重启Grafana服务</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Web端访问3000端口"><span class="nav-number">1.4.5.</span> <span class="nav-text">Web端访问3000端口</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
