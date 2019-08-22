@@ -32,7 +32,7 @@
       </categories>
       <tags>
         <tag>SQLServer</tag>
-        <tag>CentOS7</tag>
+        <tag>Centos7</tag>
       </tags>
   </entry>
   <entry>
@@ -55,8 +55,8 @@
         <category>LinuxService</category>
       </categories>
       <tags>
-        <tag>CentOS7</tag>
         <tag>LAMP</tag>
+        <tag>CentOS7</tag>
       </tags>
   </entry>
   <entry>
