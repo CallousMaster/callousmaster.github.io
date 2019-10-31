@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Jerry&#39;s blog</title>
+  <title>Clom&#39;s blog</title>
   
   <subtitle>Re:Callousmaster</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -92,9 +92,9 @@
       <category term="LinuxService" scheme="https://callousmaster.github.io/categories/LinuxService/"/>
     
     
-      <category term="Centos6" scheme="https://callousmaster.github.io/tags/Centos6/"/>
-    
       <category term="zabbix4.2" scheme="https://callousmaster.github.io/tags/zabbix4-2/"/>
+    
+      <category term="Centos6" scheme="https://callousmaster.github.io/tags/Centos6/"/>
     
   </entry>
   
@@ -143,9 +143,9 @@
       <category term="LinuxService" scheme="https://callousmaster.github.io/categories/LinuxService/"/>
     
     
-      <category term="zabbix4.2" scheme="https://callousmaster.github.io/tags/zabbix4-2/"/>
-    
       <category term="Centos7" scheme="https://callousmaster.github.io/tags/Centos7/"/>
+    
+      <category term="zabbix4.2" scheme="https://callousmaster.github.io/tags/zabbix4-2/"/>
     
   </entry>
   
