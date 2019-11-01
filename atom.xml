@@ -5,9 +5,9 @@
   <subtitle>Re:Callousmaster</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://callousmaster.github.io%20https://clom.coding.me/blog/"/>
+  <link href="https://callousmaster.github.io%20https://nnawas.coding.io/"/>
   <updated>2019-10-31T09:56:09.653Z</updated>
-  <id>https://callousmaster.github.io https://clom.coding.me/blog/</id>
+  <id>https://callousmaster.github.io https://nnawas.coding.io/</id>
   
   <author>
     <name>Callousmaster</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>linux网口绑定（bond）</title>
-    <link href="https://callousmaster.github.io%20https://clom.coding.me/blog/LinuxService/linux%E7%BD%91%E5%8F%A3%E7%BB%91%E5%AE%9A%EF%BC%88bond%EF%BC%89/"/>
-    <id>https://callousmaster.github.io https://clom.coding.me/blog/LinuxService/linux网口绑定（bond）/</id>
+    <link href="https://callousmaster.github.io%20https://nnawas.coding.io/LinuxService/linux%E7%BD%91%E5%8F%A3%E7%BB%91%E5%AE%9A%EF%BC%88bond%EF%BC%89/"/>
+    <id>https://callousmaster.github.io https://nnawas.coding.io/LinuxService/linux网口绑定（bond）/</id>
     <published>2019-10-08T04:35:35.000Z</published>
     <updated>2019-10-31T09:56:09.653Z</updated>
     
@@ -34,19 +34,19 @@
     
     </summary>
     
-      <category term="LinuxService" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/categories/LinuxService/"/>
+      <category term="LinuxService" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/categories/LinuxService/"/>
     
     
-      <category term="Centos" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/Centos/"/>
+      <category term="Centos" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/Centos/"/>
     
-      <category term="bond" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/bond/"/>
+      <category term="bond" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/bond/"/>
     
   </entry>
   
   <entry>
     <title>zabbix4.2中文乱码解决</title>
-    <link href="https://callousmaster.github.io%20https://clom.coding.me/blog/LinuxService/zabbix4-2%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E8%A7%A3%E5%86%B3/"/>
-    <id>https://callousmaster.github.io https://clom.coding.me/blog/LinuxService/zabbix4-2中文乱码解决/</id>
+    <link href="https://callousmaster.github.io%20https://nnawas.coding.io/LinuxService/zabbix4-2%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E8%A7%A3%E5%86%B3/"/>
+    <id>https://callousmaster.github.io https://nnawas.coding.io/LinuxService/zabbix4-2中文乱码解决/</id>
     <published>2019-08-22T01:52:58.000Z</published>
     <updated>2019-10-31T04:38:14.513Z</updated>
     
@@ -61,17 +61,17 @@
     
     </summary>
     
-      <category term="LinuxService" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/categories/LinuxService/"/>
+      <category term="LinuxService" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/categories/LinuxService/"/>
     
     
-      <category term="zabbix" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/zabbix/"/>
+      <category term="zabbix" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/zabbix/"/>
     
   </entry>
   
   <entry>
     <title>CentOS6部署Zabbix4.2监控</title>
-    <link href="https://callousmaster.github.io%20https://clom.coding.me/blog/LinuxService/CentOS6%E9%83%A8%E7%BD%B2Zabbix4-2%E7%9B%91%E6%8E%A7/"/>
-    <id>https://callousmaster.github.io https://clom.coding.me/blog/LinuxService/CentOS6部署Zabbix4-2监控/</id>
+    <link href="https://callousmaster.github.io%20https://nnawas.coding.io/LinuxService/CentOS6%E9%83%A8%E7%BD%B2Zabbix4-2%E7%9B%91%E6%8E%A7/"/>
+    <id>https://callousmaster.github.io https://nnawas.coding.io/LinuxService/CentOS6部署Zabbix4-2监控/</id>
     <published>2019-08-22T01:49:35.000Z</published>
     <updated>2019-10-31T09:56:26.865Z</updated>
     
@@ -86,19 +86,19 @@
     
     </summary>
     
-      <category term="LinuxService" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/categories/LinuxService/"/>
+      <category term="LinuxService" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/categories/LinuxService/"/>
     
     
-      <category term="Centos6" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/Centos6/"/>
+      <category term="zabbix" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/zabbix/"/>
     
-      <category term="zabbix" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/zabbix/"/>
+      <category term="Centos6" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/Centos6/"/>
     
   </entry>
   
   <entry>
     <title>CentOS7安装SQLServer2017</title>
-    <link href="https://callousmaster.github.io%20https://clom.coding.me/blog/LinuxService/CentOS7%E5%AE%89%E8%A3%85SQLServer2017/"/>
-    <id>https://callousmaster.github.io https://clom.coding.me/blog/LinuxService/CentOS7安装SQLServer2017/</id>
+    <link href="https://callousmaster.github.io%20https://nnawas.coding.io/LinuxService/CentOS7%E5%AE%89%E8%A3%85SQLServer2017/"/>
+    <id>https://callousmaster.github.io https://nnawas.coding.io/LinuxService/CentOS7安装SQLServer2017/</id>
     <published>2019-08-15T08:23:46.000Z</published>
     <updated>2019-08-22T02:07:06.319Z</updated>
     
@@ -111,19 +111,19 @@
     
     </summary>
     
-      <category term="LinuxService" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/categories/LinuxService/"/>
+      <category term="LinuxService" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/categories/LinuxService/"/>
     
     
-      <category term="Centos7" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/Centos7/"/>
+      <category term="Centos7" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/Centos7/"/>
     
-      <category term="SQLServer" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/SQLServer/"/>
+      <category term="SQLServer" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/SQLServer/"/>
     
   </entry>
   
   <entry>
     <title>CentOS7 + ZABBIX4.2 + Grafana6.1</title>
-    <link href="https://callousmaster.github.io%20https://clom.coding.me/blog/LinuxService/CentOS7%20+%20ZABBIX4.2%20+%20Grafana6.1/"/>
-    <id>https://callousmaster.github.io https://clom.coding.me/blog/LinuxService/CentOS7 + ZABBIX4.2 + Grafana6.1/</id>
+    <link href="https://callousmaster.github.io%20https://nnawas.coding.io/LinuxService/CentOS7%20+%20ZABBIX4.2%20+%20Grafana6.1/"/>
+    <id>https://callousmaster.github.io https://nnawas.coding.io/LinuxService/CentOS7 + ZABBIX4.2 + Grafana6.1/</id>
     <published>2019-04-24T07:24:15.000Z</published>
     <updated>2019-10-31T04:38:29.460Z</updated>
     
@@ -137,19 +137,19 @@
     
     </summary>
     
-      <category term="LinuxService" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/categories/LinuxService/"/>
+      <category term="LinuxService" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/categories/LinuxService/"/>
     
     
-      <category term="zabbix" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/zabbix/"/>
+      <category term="Centos7" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/Centos7/"/>
     
-      <category term="Centos7" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/Centos7/"/>
+      <category term="zabbix" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/zabbix/"/>
     
   </entry>
   
   <entry>
     <title>LAMP平台部署及应用（CentOS_7）</title>
-    <link href="https://callousmaster.github.io%20https://clom.coding.me/blog/LinuxService/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2%E5%8F%8A%E5%BA%94%E7%94%A8/"/>
-    <id>https://callousmaster.github.io https://clom.coding.me/blog/LinuxService/LAMP平台部署及应用/</id>
+    <link href="https://callousmaster.github.io%20https://nnawas.coding.io/LinuxService/LAMP%E5%B9%B3%E5%8F%B0%E9%83%A8%E7%BD%B2%E5%8F%8A%E5%BA%94%E7%94%A8/"/>
+    <id>https://callousmaster.github.io https://nnawas.coding.io/LinuxService/LAMP平台部署及应用/</id>
     <published>2019-04-14T11:58:23.000Z</published>
     <updated>2019-04-19T05:46:41.783Z</updated>
     
@@ -162,19 +162,19 @@
     
     </summary>
     
-      <category term="LinuxService" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/categories/LinuxService/"/>
+      <category term="LinuxService" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/categories/LinuxService/"/>
     
     
-      <category term="LAMP" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/LAMP/"/>
+      <category term="LAMP" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/LAMP/"/>
     
-      <category term="CentOS7" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/CentOS7/"/>
+      <category term="CentOS7" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/CentOS7/"/>
     
   </entry>
   
   <entry>
     <title>KVM虚拟化</title>
-    <link href="https://callousmaster.github.io%20https://clom.coding.me/blog/KVM/KVM%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
-    <id>https://callousmaster.github.io https://clom.coding.me/blog/KVM/KVM虚拟化/</id>
+    <link href="https://callousmaster.github.io%20https://nnawas.coding.io/KVM/KVM%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
+    <id>https://callousmaster.github.io https://nnawas.coding.io/KVM/KVM虚拟化/</id>
     <published>2018-10-08T06:10:18.000Z</published>
     <updated>2019-10-31T04:37:58.358Z</updated>
     
@@ -187,19 +187,19 @@
     
     </summary>
     
-      <category term="KVM" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/categories/KVM/"/>
+      <category term="KVM" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/categories/KVM/"/>
     
     
-      <category term="kvm" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/kvm/"/>
+      <category term="kvm" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/kvm/"/>
     
-      <category term="虚拟化" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
+      <category term="虚拟化" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
     
   </entry>
   
   <entry>
     <title>MFS分布式文件系统</title>
-    <link href="https://callousmaster.github.io%20https://clom.coding.me/blog/LinuxService/MFS%E5%88%86%E5%B8%83%E5%BC%8F%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/"/>
-    <id>https://callousmaster.github.io https://clom.coding.me/blog/LinuxService/MFS分布式文件系统/</id>
+    <link href="https://callousmaster.github.io%20https://nnawas.coding.io/LinuxService/MFS%E5%88%86%E5%B8%83%E5%BC%8F%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/"/>
+    <id>https://callousmaster.github.io https://nnawas.coding.io/LinuxService/MFS分布式文件系统/</id>
     <published>2018-09-27T07:24:15.000Z</published>
     <updated>2019-04-19T05:46:41.779Z</updated>
     
@@ -213,17 +213,17 @@
     
     </summary>
     
-      <category term="LinuxService" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/categories/LinuxService/"/>
+      <category term="LinuxService" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/categories/LinuxService/"/>
     
     
-      <category term="MFS分布式文件系统" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/MFS%E5%88%86%E5%B8%83%E5%BC%8F%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/"/>
+      <category term="MFS分布式文件系统" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/MFS%E5%88%86%E5%B8%83%E5%BC%8F%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   
   <entry>
     <title>Git分布式版本控制系统</title>
-    <link href="https://callousmaster.github.io%20https://clom.coding.me/blog/VCS/Git%E5%88%86%E5%B8%83%E5%BC%8F%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F/"/>
-    <id>https://callousmaster.github.io https://clom.coding.me/blog/VCS/Git分布式版本控制系统/</id>
+    <link href="https://callousmaster.github.io%20https://nnawas.coding.io/VCS/Git%E5%88%86%E5%B8%83%E5%BC%8F%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F/"/>
+    <id>https://callousmaster.github.io https://nnawas.coding.io/VCS/Git分布式版本控制系统/</id>
     <published>2018-09-20T00:20:57.000Z</published>
     <updated>2019-10-31T04:37:52.093Z</updated>
     
@@ -239,12 +239,12 @@
     
     </summary>
     
-      <category term="VCS" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/categories/VCS/"/>
+      <category term="VCS" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/categories/VCS/"/>
     
     
-      <category term="Git" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/Git/"/>
+      <category term="Git" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/Git/"/>
     
-      <category term="VCS" scheme="https://callousmaster.github.io%20https://clom.coding.me/blog/tags/VCS/"/>
+      <category term="VCS" scheme="https://callousmaster.github.io%20https://nnawas.coding.io/tags/VCS/"/>
     
   </entry>
   
