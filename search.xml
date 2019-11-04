@@ -43,8 +43,8 @@
         <category>LinuxService</category>
       </categories>
       <tags>
-        <tag>SQLServer</tag>
         <tag>Centos7</tag>
+        <tag>SQLServer</tag>
       </tags>
   </entry>
   <entry>
