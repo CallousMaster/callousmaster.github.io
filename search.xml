@@ -31,8 +31,8 @@
         <category>LinuxService</category>
       </categories>
       <tags>
-        <tag>zabbix</tag>
         <tag>Centos6</tag>
+        <tag>zabbix</tag>
       </tags>
   </entry>
   <entry>
@@ -43,8 +43,8 @@
         <category>LinuxService</category>
       </categories>
       <tags>
-        <tag>Centos7</tag>
         <tag>SQLServer</tag>
+        <tag>Centos7</tag>
       </tags>
   </entry>
   <entry>
@@ -55,8 +55,8 @@
         <category>LinuxService</category>
       </categories>
       <tags>
-        <tag>Centos7</tag>
         <tag>zabbix</tag>
+        <tag>Centos7</tag>
       </tags>
   </entry>
   <entry>
