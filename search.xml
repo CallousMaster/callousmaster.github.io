@@ -43,8 +43,8 @@
         <category>LinuxService</category>
       </categories>
       <tags>
-        <tag>Centos7</tag>
         <tag>SQLServer</tag>
+        <tag>Centos7</tag>
       </tags>
   </entry>
   <entry>
@@ -108,7 +108,10 @@
   </entry>
   <entry>
     <title><![CDATA[hello world]]></title>
-    <url>%2Funcategorized%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[hiahia hello world]]></content>
+    <url>%2Fhiahia%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[hello world]]></content>
+      <categories>
+        <category>hiahia</category>
+      </categories>
   </entry>
 </search>
