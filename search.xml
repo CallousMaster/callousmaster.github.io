@@ -31,8 +31,8 @@
         <category>LinuxService</category>
       </categories>
       <tags>
-        <tag>zabbix</tag>
         <tag>Centos6</tag>
+        <tag>zabbix</tag>
       </tags>
   </entry>
   <entry>
@@ -55,8 +55,8 @@
         <category>LinuxService</category>
       </categories>
       <tags>
-        <tag>Centos7</tag>
         <tag>zabbix</tag>
+        <tag>Centos7</tag>
       </tags>
   </entry>
   <entry>
@@ -108,12 +108,7 @@
   </entry>
   <entry>
     <title><![CDATA[hello world]]></title>
-    <url>%2Funcategorized%2Fhello-world%20-%20%E5%89%AF%E6%9C%AC%2F</url>
-    <content type="text"><![CDATA[hello world]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[hello world]]></title>
     <url>%2Funcategorized%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[hello world]]></content>
+    <content type="text"><![CDATA[hiahia hello world]]></content>
   </entry>
 </search>
