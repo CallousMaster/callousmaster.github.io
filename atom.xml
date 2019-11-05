@@ -114,9 +114,9 @@
       <category term="LinuxService" scheme="https://callousmaster.github.io%20https://clom.xyz/categories/LinuxService/"/>
     
     
-      <category term="Centos7" scheme="https://callousmaster.github.io%20https://clom.xyz/tags/Centos7/"/>
-    
       <category term="SQLServer" scheme="https://callousmaster.github.io%20https://clom.xyz/tags/SQLServer/"/>
+    
+      <category term="Centos7" scheme="https://callousmaster.github.io%20https://clom.xyz/tags/Centos7/"/>
     
   </entry>
   
@@ -140,9 +140,9 @@
       <category term="LinuxService" scheme="https://callousmaster.github.io%20https://clom.xyz/categories/LinuxService/"/>
     
     
-      <category term="zabbix" scheme="https://callousmaster.github.io%20https://clom.xyz/tags/zabbix/"/>
-    
       <category term="Centos7" scheme="https://callousmaster.github.io%20https://clom.xyz/tags/Centos7/"/>
+    
+      <category term="zabbix" scheme="https://callousmaster.github.io%20https://clom.xyz/tags/zabbix/"/>
     
   </entry>
   
